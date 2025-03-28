@@ -3,6 +3,9 @@ use std::io;
 use std::io::Write;
 
 mod parser;
+mod stop_watch;
+
+use rust_timer::help;
 
 fn main() {
     loop {
